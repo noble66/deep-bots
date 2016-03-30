@@ -10,4 +10,4 @@ See /lstm/trump_endp.py
 - model trained on trump's speeches.
 
 
-![]({{site.baseurl}}/https://media.giphy.com/media/11eVOYwCqmNEWY/giphy.gif)
+![]({{site.baseurl}}/media.giphy.com/media/11eVOYwCqmNEWY/giphy.gif)
