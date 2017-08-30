@@ -2,30 +2,30 @@
 
 /* basic stylings ------------------------------------------ */
 body 				 { background:url(https://scotch.io/wp-content/uploads/2014/07/61.jpg); }
-.container 		{ 
+.container 		{
   font-family:'Roboto';
-  width:600px; 
-  margin:30px auto 0; 
-  display:block; 
+  width:600px;
+  margin:30px auto 0;
+  display:block;
   background:#FFF;
   padding:10px 50px 50px;
 }
-h2 		 { 
-  text-align:center; 
-  margin-bottom:50px; 
+h2 		 {
+  text-align:center;
+  margin-bottom:50px;
 }
-h2 small { 
-  font-weight:normal; 
-  color:#888; 
-  display:block; 
+h2 small {
+  font-weight:normal;
+  color:#888;
+  display:block;
 }
 .footer 	{ text-align:center; }
 .footer a  { color:#53B2C8; }
 
 /* form starting stylings ------------------------------- */
-.group 			  { 
-  position:relative; 
-  margin-bottom:45px; 
+.group 			  {
+  position:relative;
+  margin-bottom:45px;
 }
 input 				{
   font-size:18px;
@@ -37,17 +37,18 @@ input 				{
 }
 input:focus 		{ outline:none; }
 
+
 /* LABEL ======================================= */
 label 				 {
-  color:#999; 
+  color:#999;
   font-size:18px;
   font-weight:normal;
   position:absolute;
   pointer-events:none;
   left:5px;
   top:10px;
-  transition:0.2s ease all; 
-  -moz-transition:0.2s ease all; 
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
 }
 
@@ -62,20 +63,20 @@ input:focus ~ label, input:valid ~ label 		{
 .bar 	{ position:relative; display:block; width:300px; }
 .bar:before, .bar:after 	{
   content:'';
-  height:2px; 
+  height:2px;
   width:0;
-  bottom:1px; 
+  bottom:1px;
   position:absolute;
-  background:#5264AE; 
-  transition:0.2s ease all; 
-  -moz-transition:0.2s ease all; 
+  background:#5264AE;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
 }
 .bar:before {
   left:50%;
 }
 .bar:after {
-  right:50%; 
+  right:50%;
 }
 
 /* active state */
@@ -86,9 +87,9 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 /* HIGHLIGHTER ================================== */
 .highlight {
   position:absolute;
-  height:60%; 
-  width:100px; 
-  top:25%; 
+  height:60%;
+  width:100px;
+  top:25%;
   left:0;
   pointer-events:none;
   opacity:0.5;
@@ -113,4 +114,17 @@ input:focus ~ .highlight {
 @keyframes inputHighlighter {
 	from { background:#5264AE; }
   to 	{ width:0; background:transparent; }
+}
+
+/* button */
+
+.btn-style{
+	border : solid 6px #ffffff;
+	border-radius : 11px 3px 3px 0px ;
+	moz-border-radius : 11px 3px 3px 0px ;
+	font-size : 18px;
+	color : #080807;
+	padding : 1px 5px;
+	background-color : #dcf2df;
+
 }
