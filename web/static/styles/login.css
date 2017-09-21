@@ -1,13 +1,18 @@
 * { box-sizing:border-box; }
 
 /* basic stylings ------------------------------------------ */
-body 				 { background:url(https://scotch.io/wp-content/uploads/2014/07/61.jpg); }
+body 				 { background:url(bryan-minear-317365.jpg);
+
+
+  background-repeat: no-repeat;
+  background-size:cover;
+background-position: center;}
 .container 		{
   font-family:'Roboto';
   width:600px;
   margin:30px auto 0;
   display:block;
-  background:#FFF;
+
   padding:10px 50px 50px;
 }
 h2 		 {
@@ -55,8 +60,8 @@ label 				 {
 /* active state */
 input:focus ~ label, input:valid ~ label 		{
   top:-20px;
-  font-size:14px;
-  color:#5264AE;
+  font-size:18px;
+  color:#2c3e50;
 }
 
 /* BOTTOM BARS ================================= */
@@ -67,7 +72,7 @@ input:focus ~ label, input:valid ~ label 		{
   width:0;
   bottom:1px;
   position:absolute;
-  background:#5264AE;
+  background:#2c3e50;
   transition:0.2s ease all;
   -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
@@ -119,12 +124,12 @@ input:focus ~ .highlight {
 /* button */
 
 .btn-style{
-	border : solid 6px #ffffff;
+	border : solid 2px #2c3e50;
 	border-radius : 11px 3px 3px 0px ;
 	moz-border-radius : 11px 3px 3px 0px ;
 	font-size : 18px;
 	color : #080807;
 	padding : 1px 5px;
-	background-color : #dcf2df;
+	background-color : #e74c3c;
 
 }
