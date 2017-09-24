@@ -14,7 +14,7 @@ login_manager.init_app(app)
 login_manager.login_message = u"Please login ...."
 login_manager.login_message_category = "info"
 
-with open('users.dict','r') as fr:
+with open('/home/ubuntu/deep-bots/web/users.dict','r') as fr:
     users = pickle.load(fr)
 
 class User(flask_login.UserMixin):
